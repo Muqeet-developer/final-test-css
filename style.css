@@ -1,0 +1,2600 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+
+}
+.container-fluid{
+    background-color: lightblue;
+    position: fixed;
+    display:flex;
+    z-index: 200;
+    margin-top: 100px;
+    width: 100%;
+    animation: scrollAnimation 5s linear forwards;
+    justify-content: space-between;
+}
+.single{;
+    flex-wrap: wrap
+}
+.as > img{
+height: 100px;
+width: 50px;
+}
+.form-right{
+    background-color:rgb(0, 162, 255);
+    height: 300px;
+    float: right;
+    width: 20%;
+    margin-top: -300px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.carousel-slide{
+
+}
+.cards{
+    float: left;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.card-img > img{
+    height: 300px;
+    z-index: -100;
+}
+.date{
+background-color: #1da4e2;
+color: white;
+margin-top: -300px;
+margin-bottom: 200px;
+width: 100px;
+}
+.docter-photo > img{
+border-radius: 100px;
+margin-left: -10px;
+}
+.p-10{
+    padding: 10px;
+    margin: 20px;
+}
+.right{
+    margin-left: 200px;
+    margin-top: 300px;
+    flex-wrap: wrap;
+}
+.left-photo{
+    margin-top: 100px;
+    float: right;
+}
+.carousel-inner{
+    height: 100px;
+}
+.number{
+    float: left;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.bg-danger1{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    outline: 0px;
+    border: 0px;
+}
+.carousel-inner{
+    height: 50%;
+
+}
+#carousel-item-active > img{
+    height: 100%;
+
+}
+.bg-danger1:hover{
+    background-color: white;
+    color: blue;
+
+}
+.slider-up-text{
+    margin-top: -600px;
+    z-index: 100px;
+    margin-left: 300px;
+}
+#carouselExampleAutoplaying{
+    z-index: -100;
+    animation-name: sliderinup;
+    animation-duration: 3s;
+    animation-timing-function: 2;
+    animation-iteration-count: 1;
+}
+.Discover-Medlifie{
+    background-color: darkblue;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    border-top: 10px solid darkblue;
+    color: white;
+    margin-top: -10px;
+}
+li:hover{
+background-color: blue;
+color: white;
+}
+a{
+    color: white;
+}
+body {
+    font-family: Helvetica,Tahoma;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  .scroll-counter {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .aos-all {
+    width: 1000px;
+    max-width: 98%;
+    margin: 50px auto;
+  }
+  
+  .aos-item {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  .aos-item::before {
+    content: attr(data-id);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #1da4e2;
+    line-height: 260px;
+    text-align: center;
+    color: #fff;
+  }
+  footer{
+    margin-top: 200px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    flex-wrap: wrap;
+    height: 350px;
+  }
+  .footer-brand{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+  }
+  .logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    float: left;
+    margin-left: -20px;
+  }
+  .img{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -90px;
+  }
+  .footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    float: left;
+    margin-left: -100px;
+}
+#london{
+    background-color: #0dcaf0;
+    margin-top: 20px;
+    width: 115%;
+    height: 400px;
+}
+#news-leter{
+    margin-top: -500px;
+}
+.emergency-content{}
+#footer{
+    margin-top: 500px;
+}
+.w > input{
+    margin-right: -100px;
+}
+.footer , .container {
+    min-height: 500px; /* Adjust this as needed */
+}
+
+  .footer form .form-control {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    background-color: transparent; /* Optional: makes background transparent to match footer */
+    color: #fff;
+    border-radius: 0; /* Removes rounded corners for a flat look */
+}
+
+.footer form .form-control:focus {
+    border-bottom-color: #0dcaf0; /* Optional: changes color on focus */
+    box-shadow: none; /* Removes any box shadow on focus */
+}
+
+.footer form .form-control::placeholder {
+    color: #bbb;
+}
+
+  .img2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -90px;
+  }
+  .d-f1{
+    margin-left: -50px;
+  }
+  .ml-50px{
+   margin-left: 30px; 
+  }
+  .right-content-2 > p{
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  .contetn-3{
+    margin-left: 10px;
+    padding: 10px;
+    margin: 30px;
+  }
+  .d-f{
+    margin-left: 100px;
+  }
+  .right-content-2{
+    margin-left: 500px;
+    margin-top: -210px;
+  }
+  .logo > img{
+    margin: 20px;
+    display: flex;
+  }
+  .fs-2{
+    color: #1da4e2;
+  }
+  footer > P{
+    display: flex;
+    text-align: justify;
+        margin: 10px;
+  }
+  .carousel-item-active > img{
+    height: 900px;
+  }
+  .img1{
+    height: 900px;
+  }
+ .contanier-content{
+    float: left;
+ }
+ .contanier-3{
+ }
+ .right-content{
+    margin-top: -90px;
+    margin-left: 500px;
+ }
+ nav{
+    width: 100%;
+ } 
+  @media screen and (min-width: 420px) {
+    .aos-item {
+      width: 50%;
+    }
+  }
+  
+  @media screen  and (min-width: 1024px) {
+    .aos-item {
+      width: 33%;
+    }
+  }
+  
+  .aos-anchors__lines {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid red;
+  }
+  
+  .aos-anchors__lines::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: green;
+  }
+  #cards{
+    margin-top: 120px;
+  }
+
+  .cards{
+    margin-top: 20px;
+  }
+  
+  .aos-anchors__sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .aos-anchors__sidebar > div {
+    padding: 5px 10px;
+    background: #f1f1f1;
+  }
+  
+  .aos-anchors__content {
+    width: 400px;
+    margin: 50px auto;
+  }
+  
+  .aos-anchors__content > div {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    background: #f1f1f1;
+    line-height: 300px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .aos-anchors__content > div::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+  }
+  
+  .aos-anchors__content > div::after {
+    content: attr(data-anchor-id);
+    position: relative;
+    background-color: #f1f1f1;
+  }
+  
+  .aos-anchors__content > div[data-placement$="-bottom"]::before {
+    background-color: red;
+  }
+  
+  .aos-anchors__content > div[data-placement$="-center"]::before {
+    background-color: green;
+  }
+  
+  .aos-anchors__content > div[data-placement$="-top"]::before {
+    background-color: blue;
+  }
+  
+  .aos-anchors__content > div[data-placement^="top-"]::before {
+    top: 0;
+  }
+  
+  .aos-anchors__content > div[data-placement^="center-"]::before {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .aos-anchors__content > div[data-placement^="bottom-"]::before {
+    bottom: 0;
+  }
+  .Discover-Medlifie{
+    padding: 20px;
+  }
+  .form{
+    background-color: darkblue;
+    color: white;
+    height: 300px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-left: 400px;
+    outline: none;
+
+  }
+  .form > input{
+    background-color: transparent;
+  }
+  .Date , .Time{
+    width: 100px;
+    margin-right: 50px;
+    padding: 10px;
+    margin-left: 10px;
+
+  }
+  .Date , .Time , .Phone , .Name , #E-mail{
+    display: inline;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 0;
+
+}
+.human-content{
+    text-align: justify;
+    margin-top: 50px;
+}
+.human{
+    flex-wrap: wrap;
+}
+.human-img{
+    background-color: darkblue;
+    border-radius: 100px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.content{
+    text-align: justify;
+    float: left;
+}
+.seacond-style{
+    margin-left: 30%;
+
+}
+
+.Phone , .Name , #E-mail{
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-top: -30px;
+}
+.Name{
+    margin-left: 56px;
+}
+#Message{
+    border: none;
+    border-bottom: 2px solid gray;
+    float: left;
+    margin-left: -53px;
+    padding: 20px;
+}
+#textarea{
+    background-color: transparent;
+}
+  .Time{
+    width: 100px;
+  }
+  select{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+  }
+  select > option{
+    color: black;
+  }
+
+ @keyframes bounce {
+      0%,100%,20%,50%,80% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      40% {
+          -webkit-transform: translateY(-30px);
+          -ms-transform: translateY(-30px);
+          transform: translateY(-30px)
+      }
+  
+      60% {
+          -webkit-transform: translateY(-15px);
+          -ms-transform: translateY(-15px);
+          transform: translateY(-15px)
+      }
+  }
+  
+  @keyframes flash {
+      0%,100%,50% {
+          opacity: 1
+      }
+  
+      25%,75% {
+          opacity: 0
+      }
+  }
+  
+  @keyframes pulse {
+      0%,100% {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1)
+      }
+  
+      50% {
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1)
+      }
+  }
+  
+  @keyframes shake {
+      0%,100% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      10%,30%,50%,70%,90% {
+          -webkit-transform: translateX(-10px);
+          -ms-transform: translateX(-10px);
+          transform: translateX(-10px)
+      }
+  
+      20%,40%,60%,80% {
+          -webkit-transform: translateX(10px);
+          -ms-transform: translateX(10px);
+          transform: translateX(10px)
+      }
+  }
+  
+  @keyframes swing {
+      20% {
+          -webkit-transform: rotate(15deg);
+          -ms-transform: rotate(15deg);
+          transform: rotate(15deg)
+      }
+  
+      40% {
+          -webkit-transform: rotate(-10deg);
+          -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg)
+      }
+  
+      60% {
+          -webkit-transform: rotate(5deg);
+          -ms-transform: rotate(5deg);
+          transform: rotate(5deg)
+      }
+  
+      80% {
+          -webkit-transform: rotate(-5deg);
+          -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg)
+      }
+  
+      100% {
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0)
+      }
+  }
+  
+  .swing {
+      -webkit-transform-origin: top center;
+      -ms-transform-origin: top center;
+      transform-origin: top center;
+      -webkit-animation-name: swing;
+      animation-name: swing
+  }
+  
+  @keyframes tada {
+      0% {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1)
+      }
+  
+      10%,20% {
+          -webkit-transform: scale(.9) rotate(-3deg);
+          -ms-transform: scale(.9) rotate(-3deg);
+          transform: scale(.9) rotate(-3deg)
+      }
+  
+      30%,50%,70%,90% {
+          -webkit-transform: scale(1.1) rotate(3deg);
+          -ms-transform: scale(1.1) rotate(3deg);
+          transform: scale(1.1) rotate(3deg)
+      }
+  
+      40%,60%,80% {
+          -webkit-transform: scale(1.1) rotate(-3deg);
+          -ms-transform: scale(1.1) rotate(-3deg);
+          transform: scale(1.1) rotate(-3deg)
+      }
+  
+      100% {
+          -webkit-transform: scale(1) rotate(0);
+          -ms-transform: scale(1) rotate(0);
+          transform: scale(1) rotate(0)
+      }
+  }
+  
+  @keyframes wobble {
+      0%,100% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      15% {
+          -webkit-transform: translateX(-25%) rotate(-5deg);
+          -ms-transform: translateX(-25%) rotate(-5deg);
+          transform: translateX(-25%) rotate(-5deg)
+      }
+  
+      30% {
+          -webkit-transform: translateX(20%) rotate(3deg);
+          -ms-transform: translateX(20%) rotate(3deg);
+          transform: translateX(20%) rotate(3deg)
+      }
+  
+      45% {
+          -webkit-transform: translateX(-15%) rotate(-3deg);
+          -ms-transform: translateX(-15%) rotate(-3deg);
+          transform: translateX(-15%) rotate(-3deg)
+      }
+  
+      60% {
+          -webkit-transform: translateX(10%) rotate(2deg);
+          -ms-transform: translateX(10%) rotate(2deg);
+          transform: translateX(10%) rotate(2deg)
+      }
+  
+      75% {
+          -webkit-transform: translateX(-5%) rotate(-1deg);
+          -ms-transform: translateX(-5%) rotate(-1deg);
+          transform: translateX(-5%) rotate(-1deg)
+      }
+  }
+  
+  @keyframes bounceIn {
+      0% {
+          opacity: 0;
+          -webkit-transform: scale(.3);
+          -ms-transform: scale(.3);
+          transform: scale(.3)
+      }
+  
+      50% {
+          opacity: 1;
+          -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          transform: scale(1.05)
+      }
+  
+      70% {
+          -webkit-transform: scale(.9);
+          -ms-transform: scale(.9);
+          transform: scale(.9)
+      }
+  
+      100% {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1)
+      }
+  }
+  
+  @keyframes bounceInDown {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(-2000px);
+          -ms-transform: translateY(-2000px);
+          transform: translateY(-2000px)
+      }
+  
+      60% {
+          opacity: 1;
+          -webkit-transform: translateY(30px);
+          -ms-transform: translateY(30px);
+          transform: translateY(30px)
+      }
+  
+      80% {
+          -webkit-transform: translateY(-10px);
+          -ms-transform: translateY(-10px);
+          transform: translateY(-10px)
+      }
+  
+      100% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes bounceInLeft {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+          -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px)
+      }
+  
+      60% {
+          opacity: 1;
+          -webkit-transform: translateX(30px);
+          -ms-transform: translateX(30px);
+          transform: translateX(30px)
+      }
+  
+      80% {
+          -webkit-transform: translateX(-10px);
+          -ms-transform: translateX(-10px);
+          transform: translateX(-10px)
+      }
+  
+      100% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes bounceInRight {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+          -ms-transform: translateX(2000px);
+          transform: translateX(2000px)
+      }
+  
+      60% {
+          opacity: 1;
+          -webkit-transform: translateX(-30px);
+          -ms-transform: translateX(-30px);
+          transform: translateX(-30px)
+      }
+  
+      80% {
+          -webkit-transform: translateX(10px);
+          -ms-transform: translateX(10px);
+          transform: translateX(10px)
+      }
+  
+      100% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes bounceInUp {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(2000px);
+          -ms-transform: translateY(2000px);
+          transform: translateY(2000px)
+      }
+  
+      60% {
+          opacity: 1;
+          -webkit-transform: translateY(-30px);
+          -ms-transform: translateY(-30px);
+          transform: translateY(-30px)
+      }
+  
+      80% {
+          -webkit-transform: translateY(10px);
+          -ms-transform: translateY(10px);
+          transform: translateY(10px)
+      }
+  
+      100% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes bounceOut {
+      0% {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1)
+      }
+  
+      25% {
+          -webkit-transform: scale(.95);
+          -ms-transform: scale(.95);
+          transform: scale(.95)
+      }
+  
+      50% {
+          opacity: 1;
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: scale(.3);
+          -ms-transform: scale(.3);
+          transform: scale(.3)
+      }
+  }
+  
+  @keyframes bounceOutDown {
+      0% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      20% {
+          opacity: 1;
+          -webkit-transform: translateY(-20px);
+          -ms-transform: translateY(-20px);
+          transform: translateY(-20px)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(2000px);
+          -ms-transform: translateY(2000px);
+          transform: translateY(2000px)
+      }
+  }
+  
+  @keyframes bounceOutLeft {
+      0% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      20% {
+          opacity: 1;
+          -webkit-transform: translateX(20px);
+          -ms-transform: translateX(20px);
+          transform: translateX(20px)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+          -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px)
+      }
+  }
+  
+  @keyframes bounceOutRight {
+      0% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      20% {
+          opacity: 1;
+          -webkit-transform: translateX(-20px);
+          -ms-transform: translateX(-20px);
+          transform: translateX(-20px)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+          -ms-transform: translateX(2000px);
+          transform: translateX(2000px)
+      }
+  }
+  
+  @keyframes bounceOutUp {
+      0% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      20% {
+          opacity: 1;
+          -webkit-transform: translateY(20px);
+          -ms-transform: translateY(20px);
+          transform: translateY(20px)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(-2000px);
+          -ms-transform: translateY(-2000px);
+          transform: translateY(-2000px)
+      }
+  }
+  
+  @keyframes fadeIn {
+      0% {
+          opacity: 0
+      }
+  
+      100% {
+          opacity: 1
+      }
+  }
+  
+  .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn
+  }
+  
+  @keyframes fadeInDown {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(-20px);
+          -ms-transform: translateY(-20px);
+          transform: translateY(-20px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes fadeInDownBig {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(-2000px);
+          -ms-transform: translateY(-2000px);
+          transform: translateY(-2000px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes fadeInLeft {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(-20px);
+          -ms-transform: translateX(-20px);
+          transform: translateX(-20px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes fadeInLeftBig {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+          -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes fadeInRight {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(20px);
+          -ms-transform: translateX(20px);
+          transform: translateX(20px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes fadeInRightBig {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+          -ms-transform: translateX(2000px);
+          transform: translateX(2000px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes fadeInUp {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(20px);
+          -ms-transform: translateY(20px);
+          transform: translateY(20px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  .fadeInUp {
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp
+  }
+  
+  @keyframes fadeInUpBig {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(2000px);
+          -ms-transform: translateY(2000px);
+          transform: translateY(2000px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes fadeOut {
+      0% {
+          opacity: 1
+      }
+  
+      100% {
+          opacity: 0
+      }
+  }
+  
+  .fadeOut {
+      -webkit-animation-name: fadeOut;
+      animation-name: fadeOut
+  }
+  
+  @keyframes fadeOutDown {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(20px);
+          -ms-transform: translateY(20px);
+          transform: translateY(20px)
+      }
+  }
+  
+  @keyframes fadeOutDownBig {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(2000px);
+          -ms-transform: translateY(2000px);
+          transform: translateY(2000px)
+      }
+  }
+  
+  @keyframes fadeOutLeft {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(-20px);
+          -ms-transform: translateX(-20px);
+          transform: translateX(-20px)
+      }
+  }
+  
+  @keyframes fadeOutLeftBig {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+          -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px)
+      }
+  }
+  
+  @keyframes fadeOutRight {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(20px);
+          -ms-transform: translateX(20px);
+          transform: translateX(20px)
+      }
+  }
+  
+  @keyframes fadeOutRightBig {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+          -ms-transform: translateX(2000px);
+          transform: translateX(2000px)
+      }
+  }
+  
+  @keyframes fadeOutUp {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(-20px);
+          -ms-transform: translateY(-20px);
+          transform: translateY(-20px)
+      }
+  }
+  
+  @keyframes fadeOutUpBig {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(-2000px);
+          -ms-transform: translateY(-2000px);
+          transform: translateY(-2000px)
+      }
+  }
+  
+  @keyframes flip {
+      0% {
+          -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+          -ms-transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+          transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out
+      }
+  
+      40% {
+          -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+          -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+          transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out
+      }
+  
+      50% {
+          -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+          -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+          transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in
+      }
+  
+      80% {
+          -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+          -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+          transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in
+      }
+  
+      100% {
+          -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+          -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+          transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+          -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in
+      }
+  }
+  
+  .animated.flip {
+      -webkit-backface-visibility: visible;
+      -ms-backface-visibility: visible;
+      backface-visibility: visible;
+      -webkit-animation-name: flip;
+      animation-name: flip
+  }
+  
+  @keyframes flipInX {
+      0% {
+          -webkit-transform: perspective(400px) rotateX(90deg);
+          -ms-transform: perspective(400px) rotateX(90deg);
+          transform: perspective(400px) rotateX(90deg);
+          opacity: 0
+      }
+  
+      40% {
+          -webkit-transform: perspective(400px) rotateX(-10deg);
+          -ms-transform: perspective(400px) rotateX(-10deg);
+          transform: perspective(400px) rotateX(-10deg)
+      }
+  
+      70% {
+          -webkit-transform: perspective(400px) rotateX(10deg);
+          -ms-transform: perspective(400px) rotateX(10deg);
+          transform: perspective(400px) rotateX(10deg)
+      }
+  
+      100% {
+          -webkit-transform: perspective(400px) rotateX(0);
+          -ms-transform: perspective(400px) rotateX(0);
+          transform: perspective(400px) rotateX(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes flipInY {
+      0% {
+          -webkit-transform: perspective(400px) rotateY(90deg);
+          -ms-transform: perspective(400px) rotateY(90deg);
+          transform: perspective(400px) rotateY(90deg);
+          opacity: 0
+      }
+  
+      40% {
+          -webkit-transform: perspective(400px) rotateY(-10deg);
+          -ms-transform: perspective(400px) rotateY(-10deg);
+          transform: perspective(400px) rotateY(-10deg)
+      }
+  
+      70% {
+          -webkit-transform: perspective(400px) rotateY(10deg);
+          -ms-transform: perspective(400px) rotateY(10deg);
+          transform: perspective(400px) rotateY(10deg)
+      }
+  
+      100% {
+          -webkit-transform: perspective(400px) rotateY(0);
+          -ms-transform: perspective(400px) rotateY(0);
+          transform: perspective(400px) rotateY(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes flipOutX {
+      0% {
+          -webkit-transform: perspective(400px) rotateX(0);
+          -ms-transform: perspective(400px) rotateX(0);
+          transform: perspective(400px) rotateX(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform: perspective(400px) rotateX(90deg);
+          -ms-transform: perspective(400px) rotateX(90deg);
+          transform: perspective(400px) rotateX(90deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes flipOutY {
+      0% {
+          -webkit-transform: perspective(400px) rotateY(0);
+          -ms-transform: perspective(400px) rotateY(0);
+          transform: perspective(400px) rotateY(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform: perspective(400px) rotateY(90deg);
+          -ms-transform: perspective(400px) rotateY(90deg);
+          transform: perspective(400px) rotateY(90deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes lightSpeedIn {
+      0% {
+          -webkit-transform: translateX(100%) skewX(-30deg);
+          -ms-transform: translateX(100%) skewX(-30deg);
+          transform: translateX(100%) skewX(-30deg);
+          opacity: 0
+      }
+  
+      60% {
+          -webkit-transform: translateX(-20%) skewX(30deg);
+          -ms-transform: translateX(-20%) skewX(30deg);
+          transform: translateX(-20%) skewX(30deg);
+          opacity: 1
+      }
+  
+      80% {
+          -webkit-transform: translateX(0) skewX(-15deg);
+          -ms-transform: translateX(0) skewX(-15deg);
+          transform: translateX(0) skewX(-15deg);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform: translateX(0) skewX(0);
+          -ms-transform: translateX(0) skewX(0);
+          transform: translateX(0) skewX(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes lightSpeedOut {
+      0% {
+          -webkit-transform: translateX(0) skewX(0);
+          -ms-transform: translateX(0) skewX(0);
+          transform: translateX(0) skewX(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform: translateX(100%) skewX(-30deg);
+          -ms-transform: translateX(100%) skewX(-30deg);
+          transform: translateX(100%) skewX(-30deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes rotateIn {
+      0% {
+          -webkit-transform-origin: center center;
+          -ms-transform-origin: center center;
+          transform-origin: center center;
+          -webkit-transform: rotate(-200deg);
+          -ms-transform: rotate(-200deg);
+          transform: rotate(-200deg);
+          opacity: 0
+      }
+  
+      100% {
+          -webkit-transform-origin: center center;
+          -ms-transform-origin: center center;
+          transform-origin: center center;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes rotateInDownLeft {
+      0% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          opacity: 0
+      }
+  
+      100% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes rotateInDownRight {
+      0% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+          opacity: 0
+      }
+  
+      100% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes rotateInUpLeft {
+      0% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+          opacity: 0
+      }
+  
+      100% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes rotateInUpRight {
+      0% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          opacity: 0
+      }
+  
+      100% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  }
+  
+  @keyframes rotateOut {
+      0% {
+          -webkit-transform-origin: center center;
+          -ms-transform-origin: center center;
+          transform-origin: center center;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform-origin: center center;
+          -ms-transform-origin: center center;
+          transform-origin: center center;
+          -webkit-transform: rotate(200deg);
+          -ms-transform: rotate(200deg);
+          transform: rotate(200deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes rotateOutDownLeft {
+      0% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes rotateOutDownRight {
+      0% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes rotateOutUpLeft {
+      0% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform-origin: left bottom;
+          -ms-transform-origin: left bottom;
+          transform-origin: left bottom;
+          -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes rotateOutUpRight {
+      0% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          opacity: 1
+      }
+  
+      100% {
+          -webkit-transform-origin: right bottom;
+          -ms-transform-origin: right bottom;
+          transform-origin: right bottom;
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+          opacity: 0
+      }
+  }
+  
+  @keyframes slideInDown {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(-2000px);
+          -ms-transform: translateY(-2000px);
+          transform: translateY(-2000px)
+      }
+  
+      100% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes slideInLeft {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+          -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px)
+      }
+  
+      100% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes slideInRight {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+          -ms-transform: translateX(2000px);
+          transform: translateX(2000px)
+      }
+  
+      100% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  }
+  
+  @keyframes slideOutLeft {
+      0% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(-2000px);
+          -ms-transform: translateX(-2000px);
+          transform: translateX(-2000px)
+      }
+  }
+  
+  @keyframes slideOutRight {
+      0% {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(2000px);
+          -ms-transform: translateX(2000px);
+          transform: translateX(2000px)
+      }
+  }
+  
+  @keyframes slideOutUp {
+      0% {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateY(-2000px);
+          -ms-transform: translateY(-2000px);
+          transform: translateY(-2000px)
+      }
+  }
+  
+  @keyframes hinge {
+      0% {
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+          -webkit-transform-origin: top left;
+          -ms-transform-origin: top left;
+          transform-origin: top left;
+          -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out
+      }
+  
+      20%,60% {
+          -webkit-transform: rotate(80deg);
+          -ms-transform: rotate(80deg);
+          transform: rotate(80deg);
+          -webkit-transform-origin: top left;
+          -ms-transform-origin: top left;
+          transform-origin: top left;
+          -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out
+      }
+  
+      40% {
+          -webkit-transform: rotate(60deg);
+          -ms-transform: rotate(60deg);
+          transform: rotate(60deg);
+          -webkit-transform-origin: top left;
+          -ms-transform-origin: top left;
+          transform-origin: top left;
+          -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out
+      }
+  
+      80% {
+          -webkit-transform: rotate(60deg) translateY(0);
+          -ms-transform: rotate(60deg) translateY(0);
+          transform: rotate(60deg) translateY(0);
+          opacity: 1;
+          -webkit-transform-origin: top left;
+          -ms-transform-origin: top left;
+          transform-origin: top left;
+          -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out
+      }
+  
+      100% {
+          -webkit-transform: translateY(700px);
+          -ms-transform: translateY(700px);
+          transform: translateY(700px);
+          opacity: 0
+      }
+  }
+  
+  @keyframes rollIn {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateX(-100%) rotate(-120deg);
+          -ms-transform: translateX(-100%) rotate(-120deg);
+          transform: translateX(-100%) rotate(-120deg)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateX(0) rotate(0);
+          -ms-transform: translateX(0) rotate(0);
+          transform: translateX(0) rotate(0)
+      }
+  }
+  
+  @keyframes rollOut {
+      0% {
+          opacity: 1;
+          -webkit-transform: translateX(0) rotate(0);
+          -ms-transform: translateX(0) rotate(0);
+          transform: translateX(0) rotate(0)
+      }
+  
+      100% {
+          opacity: 0;
+          -webkit-transform: translateX(100%) rotate(120deg);
+          -ms-transform: translateX(100%) rotate(120deg);
+          transform: translateX(100%) rotate(120deg)
+      }
+  }
+  
+  @keyframes custom_slideInUp {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(200px);
+          transform: translateY(200px)
+      }
+  
+      80% {
+          opacity: 0;
+          -webkit-transform: translateY(50px);
+          transform: translateY(50px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes custom_slideInUp_2 {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(200px);
+          transform: translateY(200px)
+      }
+  
+      80% {
+          opacity: 0;
+          -webkit-transform: translateY(50px);
+          transform: translateY(50px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes custom_slideInUp_btn_1 {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(200px);
+          transform: translateY(200px)
+      }
+  
+      80% {
+          opacity: 0;
+          -webkit-transform: translateY(50px);
+          transform: translateY(50px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0)
+      }
+  }
+  
+  @keyframes custom_slideInUp_btn_2 {
+      0% {
+          opacity: 0;
+          -webkit-transform: translateY(200px);
+          transform: translateY(200px)
+      }
+  
+      80% {
+          opacity: 0;
+          -webkit-transform: translateY(50px);
+          transform: translateY(50px)
+      }
+  
+      100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+      }
+  }
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateY(2);
+    }
+    100% {
+      transform: translateY(-60%);  /* Adjust based on content height */ ;
+    }
+  }
+  @media (max-width:307px){
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+  }
+  @media (max-width:371px) {
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+  }
+  @media (max-width:375px) {
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+  }
+  @media (max-width:371px) {
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+  }
+
+  @media (max-width:375px){
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+    . .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -50px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+  }
+  @media (max-width:430px){
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        height: 900px;
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -20px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+    .header{
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        
+        width: 100%;
+    }
+    .Discover-Medlifie{
+        background-color: darkblue;
+        color: white;
+    }
+    .form{
+        width:130%;
+        background-color: darkblue;
+        height: 500px;
+        margin-left: -100px;
+        float: left;
+
+    }
+    .Date , .Time , .Phone , .Name , #E-mail{
+        display: inline;
+        justify-content: space-around;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .Phone , .Name , #E-mail{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin: 20px;
+
+    }
+    #Message{
+        border: none;
+        border-bottom: 2px solid gray;
+        float: left;
+        margin-left: -53px;
+        padding: 20px;
+
+    }
+    .form-right{
+        margin-top: 1px;
+        float: left;
+        width: 105%;
+        flex-wrap: wrap;
+    }
+    .human{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+
+    }
+    .seacond-style{
+        float: left;
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .left-photo{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: -50px;
+    }
+    .number{ 
+        margin-left: 100px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    #london{
+        width: 140%;
+    }
+  body{
+    color: rgb(243, 243, 243);
+    background-color: #333;
+  }
+  #footer{
+    color: black;
+    width: 110%;
+  }
+}
